@@ -80,7 +80,6 @@ export const Wrapper = styled.div`
     font-size: 20px;
     text-align: center;
     margin: 20px;
-    position : absolute;
     color: black;
 
     > a {
