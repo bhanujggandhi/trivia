@@ -117,6 +117,16 @@ const App = () => {
             Next Question
           </button>
         ) : null}
+        <footer className='footer'>
+          Created by:
+          <a
+            href='https://github.com/bhanujggandhi'
+            rel='noreferrer'
+            target='_blank'
+          >
+            bhanujggandhi
+          </a>
+        </footer>
       </Wrapper>
     </>
   );

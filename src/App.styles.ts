@@ -49,7 +49,7 @@ export const Wrapper = styled.div`
     font-weight: 400;
     font-size: 70px;
     text-align: center;
-    margin: 20px
+    margin: 20px;
   }
 
   .start, .next {
@@ -66,6 +66,30 @@ export const Wrapper = styled.div`
   .start {
       max-width: 200px;
     }
+
+    .footer {
+    /* background-image: linear-gradient(180deg, #def, #87f1ff); */
+    background-size: 100%;
+    background-clip: text;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #0085a3); */
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+    color: black;
+
+    > a {
+      color: inherit;
+    }
+  }
 `
 
 export const SpinnerOverlay = styled.div`
